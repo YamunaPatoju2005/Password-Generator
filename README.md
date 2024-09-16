@@ -60,7 +60,11 @@ Code for island-
  / \----- ----- ------------  ------- ----- -------  --------  -------\
  \_/__________________________________________________________________/
   ''')
+
+  
 The game starts with a decorative ASCII art that represents a treasure map. This is purely for visual appeal and doesn’t affect the game logic. It sets the mood for the adventure.
+
+
 3.Conditional Logic: The game uses logical conditions (if, else) to evaluate the player’s decisions, progressing the story accordingly.
 
 CONTRIBUTING: Pull requests are welcome! Feel free to open an issue if you want to suggest changes.
