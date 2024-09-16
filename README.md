@@ -28,6 +28,8 @@ HOW IT WORKS-
 
 GAMEPLAY ELEMENTS-
 1.User Interaction: The player’s choices drive the game forward. The game asks the player for input at various stages, which determines the path they take.
+
+
 2.ASCII Art for Visual Appeal:
 Code for island-
 (''' ____________________________________________________________________
