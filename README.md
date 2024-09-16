@@ -27,6 +27,8 @@ HOW IT WORKS-
    -Choosing the red or blue door results in losing the game.
 
 GAMEPLAY ELEMENTS-
+
+
 1.User Interaction: The player’s choices drive the game forward. The game asks the player for input at various stages, which determines the path they take.
 
 
