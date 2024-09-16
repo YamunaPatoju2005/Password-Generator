@@ -24,20 +24,27 @@ print(''' ____________________________________________________________________
  / \----- ----- ------------  ------- ----- -------  --------  -------\
  \_/__________________________________________________________________/
   ''')
-  
-print("hello guys !")
-print("welcome to treasure island....")
-print("Hey ! \nyou are at the starting point of the island...")
-print(" go on through the island trees..")
-print("you are at a crossroad")
-direction = input("where do you want to go? left or right?")
-if direction == "left":
-          print("you have come to a lake. There is an island in the middle of the lake.")
-lake=input("type wait to wait for a boat. type swim to swim across.")
-if lake == "wait":
-          print("you arrive at the island unharmed. There is a house with 3 doors. one red,one yellow and one blue.")
-door=input("which colour do you choose? (red,blue,yellow)")
-if door == "yellow":
-          print("you win! hey you got the treasure....")
 
+print("Hello guys!")
+print("Welcome to Treasure Island...")
+print("Hey! \nYou are at the starting point of the island...")
+print("Go on through the island trees...")
+print("You are at a crossroad.")
+direction = input("Where do you want to go? left or right? ")
 
+if direction.lower() == "left":
+    print("You have come to a lake. There is an island in the middle of the lake.")
+    lake = input("Type 'wait' to wait for a boat. Type 'swim' to swim across. ")
+
+    if lake.lower() == "wait":
+        print("You arrive at the island unharmed. There is a house with 3 doors: one red, one yellow, and one blue.")
+        door = input("Which color do you choose? (red, blue, yellow) ")
+
+        if door.lower() == "yellow":
+            print("You win! Hey, you got the treasure....")
+        else:
+            print("Sorry, you chose the wrong door. Game over.")
+    else:
+        print("Sorry, you got caught by a monster. Game over.")
+else:
+    print("Sorry, you fell into a trap. Game over.")
